@@ -82,6 +82,12 @@ Unique. Do not duplicate existing opened issues.
 Scoped to a Single Bug. One bug per report.
 Please adhere to this project's code of conduct.
 
+## Support
+Reach out to us at one of the following places:
+
+- [Discord Server](https://discord.gg/QnEZjQVJeK)
+- The email which is located in our [GitHub Profile](https://github.com/Dhamova)
+
 ## License
 This project is licensed under the AGPL-3.0 license.
 
