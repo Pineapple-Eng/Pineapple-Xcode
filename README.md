@@ -24,7 +24,6 @@
 </div>
 
 ## Table of Contents
-- [About](#about)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -40,8 +39,24 @@
 ### Setup
 ### Usage
 
+## Roadmap
+#### Mac App UI
+- [x] Add/Remove OpenAPI Key
+- [x] Store API Key securely with Apple's Keychain
+- [ ] Add GPT customizations (Model, Max Tokens, Temperature, etc)
+- [ ] Add a loading state while executing a command
+#### Xcode Commands
+- [x] Refactor Selected Code
+- [x] Shorten Selected Code
+- [x] Generate Code from current single-line comment
+- [ ] Generate Code from selected multi-line comments
+- [x] Document Selected Code
+- [ ] Find Potential Bugs in Selected Code
+- [ ] Fully Support Swift, SwiftUI, Obj-C, Obj-C++, C, C++
+
 ## License
 This project is licensed under the AGPL-3.0 license.
+
 See [LICENSE](LICENSE) for more information.
 
 ## Copyright
