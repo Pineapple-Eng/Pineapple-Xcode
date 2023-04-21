@@ -10,6 +10,8 @@
   •
   <a href="#">Support Us: Download on the AppStore (soon)</a>
   •
+  <a href="#">Download from Release</a>
+  •
   <a href="https://discord.gg/QnEZjQVJeK">Discord</a>
 </div>
 
