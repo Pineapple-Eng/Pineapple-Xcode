@@ -23,6 +23,11 @@
   </a>
 </div>
 
+|Generate|Document|Refactor|
+|--|--|--|
+|![Generate](https://user-images.githubusercontent.com/10634238/233713729-865a7275-0b5b-4269-9a86-ab62f65cceb6.gif)|![Document](https://user-images.githubusercontent.com/10634238/233713762-05900142-8a25-4c4a-8e20-c8455382927a.gif)|![Refactor](https://user-images.githubusercontent.com/10634238/233713792-8e8a9d59-ed01-4ac6-9c5c-998d48095b45.gif)|
+
+
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -32,12 +37,24 @@
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 - [Copyright](#copyright)
 
 ## Getting Started
 ### Prerequisites
+Make sure you are using `Xcode Version 14.3 (14E222b)` or newer. The project is `Xcode 14.0-compatible`.
+
+The `macOS` App requires `macOS 13.3+`
+
 ### Setup
+1. Clone this Repository
+2. Open the Xcode Project, go to the Project Targets, and update the `Signing & Capabilities` with your own `Bundle Identifier`.
+3. you shouldn't need a `Provisioning Profile` to run the extension locally.
+4. Make sure you run the `Pineapple for Xcode` macOS target first, and add your OpenAI API Key
+5. To debug the extension, run the `Pineapple` extension target, and a new instance of Xcode will open with the extension enabled.
+
 ### Usage
+Refer to our [Docs](https://xcode.pineapple.build) to learn how to use this extension.
 
 ## Roadmap
 #### Mac App UI
@@ -54,13 +71,29 @@
 - [ ] Find Potential Bugs in Selected Code
 - [ ] Fully Support Swift, SwiftUI, Obj-C, Obj-C++, C, C++
 
+## Contributing
+Any contributions you make will benefit everybody else and are greatly appreciated 🍍.
+
+Please try to create bug reports that are:
+
+Reproducible. Include steps to reproduce the problem.
+Specific. Include as much detail as possible: which version, what environment, etc.
+Unique. Do not duplicate existing opened issues.
+Scoped to a Single Bug. One bug per report.
+Please adhere to this project's code of conduct.
+
 ## License
 This project is licensed under the AGPL-3.0 license.
 
 See [LICENSE](LICENSE) for more information.
 
+## Acknowledgements
+Thanks for [dec0dOS](https://github.com/dec0dOS/amazing-github-template) for the README template.
+
 ## Copyright
 The Pineapple logo, and Dhamova logo are a registered trademark of Dhamova Innovations Inc.
+
+
 
 
 
