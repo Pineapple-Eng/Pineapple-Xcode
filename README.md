@@ -17,9 +17,13 @@
 <br />
 </div>
 
-<details open="open">
-<summary>Table of Contents</summary>
+<div align="center">
+  <a href="https://xcode.pineapple.build">
+    <img alt+"Pineapple for Xcode UI Screenshot" src="https://github.com/Dhamova/Pineapple-Xcode/blob/536367e92bd515a44f4a0430063618f4c947deed/PineappleXcode/Preview%20Content/UIScreenshot.png?raw=true" width="75%">
+  </a>
+</div>
 
+## Table of Contents
 - [About](#about)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -30,8 +34,6 @@
 - [Support](#support)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-
-</details>
 
 ## Getting Started
 ### Prerequisites
