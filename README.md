@@ -33,7 +33,7 @@
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Copyright](#copyright)
 
 ## Getting Started
 ### Prerequisites
@@ -42,5 +42,11 @@
 
 ## License
 This project is licensed under the AGPL-3.0 license.
-
 See [LICENSE](LICENSE) for more information.
+
+## Copyright
+The Pineapple logo, and Dhamova logo are a registered trademark of Dhamova Innovations Inc.
+
+
+
+
