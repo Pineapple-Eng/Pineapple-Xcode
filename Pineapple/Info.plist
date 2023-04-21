@@ -25,20 +25,20 @@
 					<string>Document Selection</string>
 				</dict>
 				<dict>
-					<key>XCSourceEditorCommandName</key>
-					<string>Refactor Selection</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).RefactorSelection</string>
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).RefactorSelection</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).RefactorSelection</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Refactor Selection</string>
 				</dict>
 				<dict>
-					<key>XCSourceEditorCommandName</key>
-					<string>Shorten Selection</string>
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).ShortenSelection</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).ShortenSelection</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Shorten Selection</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>

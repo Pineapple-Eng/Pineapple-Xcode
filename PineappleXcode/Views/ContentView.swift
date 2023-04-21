@@ -10,11 +10,6 @@ struct ContentView: View {
                     Label("configuration",
                           systemImage: "gear")
                 }
-            HelpView()
-                .tabItem {
-                    Label("help",
-                          systemImage: "questionmark.circle")
-                }
         }
         .padding(.horizontal)
         Divider()
