@@ -1,0 +1,13 @@
+// Created by Dhamova on 2023-04-20.
+
+"add" = "Add";
+"ai_extension" = "AI Copilot Extension";
+"configuration" = "Configuration";
+"delete" = "Delete";
+"for_xcode" = "For Xcode";
+"help" = "Help";
+"key_security_description" = "Your API Key is saved securely using Apple's Keychain.";
+"made_in_canada" = "Made in Canada 🇨🇦";
+"open_api_key" = "OpenAI API Key";
+"open_source" = "We're Open Source";
+"pineapple_for_xcode" = "Pineapple for Xcode";
