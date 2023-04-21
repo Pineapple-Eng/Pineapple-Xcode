@@ -56,6 +56,8 @@ The `macOS` App requires `macOS 13.3+`
 ### Usage
 Refer to our [Docs](https://xcode.pineapple.build) to learn how to use this extension.
 
+⚠️ If the `Pineapple` menu is grayed out in Xcode Editor Menu after installing the extension. Quit (`cmd+Q`) and Reopen Xcode.
+
 ## Roadmap
 #### Mac App UI
 - [x] Add/Remove OpenAPI Key
