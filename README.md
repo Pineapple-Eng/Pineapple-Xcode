@@ -8,9 +8,9 @@
   <br />
   <a href="https://xcode.pineapple.build">Docs</a>
   •
-  <a href="">Request a Feature</a>
+  <a href="">Download on the AppStore (soon)</a>
   •
-  <a href="#">Join TestFlight</a>
+  <a href="#">Join TestFlight (soon)</a>
 </div>
 
 <div align="center">
