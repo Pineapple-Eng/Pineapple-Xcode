@@ -10,7 +10,7 @@
   •
   <a href="#">Support Us: Download on the AppStore (soon)</a>
   •
-  <a href="#">Join TestFlight (soon)</a>
+  <a href="https://discord.gg/QnEZjQVJeK">Discord</a>
 </div>
 
 <div align="center">
