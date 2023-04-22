@@ -21,7 +21,7 @@
 
 <div align="center">
   <a href="https://xcode.pineapple.build">
-    <img alt+"Pineapple for Xcode UI Screenshot" src="https://github.com/Dhamova/Pineapple-Xcode/blob/536367e92bd515a44f4a0430063618f4c947deed/PineappleXcode/Preview%20Content/UIScreenshot.png?raw=true" width="75%">
+    <img alt="Pineapple for Xcode UI Screenshot" src="https://github.com/Dhamova/Pineapple-Xcode/blob/536367e92bd515a44f4a0430063618f4c947deed/PineappleXcode/Preview%20Content/UIScreenshot.png?raw=true" width="75%">
   </a>
 </div>
 
@@ -29,6 +29,13 @@
 |--|--|--|
 |![Generate](https://user-images.githubusercontent.com/10634238/233713729-865a7275-0b5b-4269-9a86-ab62f65cceb6.gif)|![Document](https://user-images.githubusercontent.com/10634238/233713762-05900142-8a25-4c4a-8e20-c8455382927a.gif)|![Refactor](https://user-images.githubusercontent.com/10634238/233713792-8e8a9d59-ed01-4ac6-9c5c-998d48095b45.gif)|
 
+<div align="center">
+
+
+  <a href="https://www.buymeacoffee.com/davidcruz" target="_blank">
+    <img alt="Buy Me A Coffee Badge" src="https://user-images.githubusercontent.com/10634238/233811829-f0775db3-7f85-4d9d-8bfd-c111fdf0d627.png" width="200px">
+  </a>
+</div>
 
 ## Table of Contents
 - [Getting Started](#getting-started)
