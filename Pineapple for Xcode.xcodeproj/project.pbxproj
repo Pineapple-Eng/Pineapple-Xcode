@@ -80,6 +80,8 @@
 		2FA8A5C429F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
 		2FA8A5C529F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
 		2FA8A5C629F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
+		2FE3825F29FB030700E79D86 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE3825E29FB030700E79D86 /* PythonKit */; };
+		2FE3826129FB031800E79D86 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE3826029FB031800E79D86 /* PythonKit */; };
 		2FEA719729F26BD700E251D9 /* FileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA719629F26BD700E251D9 /* FileExtension.swift */; };
 		2FEA719A29F27ADC00E251D9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEA719929F27ADC00E251D9 /* OpenAI */; };
 		2FEA719C29F27CEA00E251D9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEA719B29F27CEA00E251D9 /* OpenAI */; };
@@ -190,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEA719C29F27CEA00E251D9 /* OpenAI in Frameworks */,
+				2FE3826129FB031800E79D86 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +217,7 @@
 				2FA8A54A29F1D03D00F5C0E7 /* Cocoa.framework in Frameworks */,
 				2FEA719A29F27ADC00E251D9 /* OpenAI in Frameworks */,
 				2FA8A55E29F1D17F00F5C0E7 /* XcodeKit.framework in Frameworks */,
+				2FE3825F29FB030700E79D86 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +459,7 @@
 			name = "Pineapple for Xcode";
 			packageProductDependencies = (
 				2FEA719B29F27CEA00E251D9 /* OpenAI */,
+				2FE3826029FB031800E79D86 /* PythonKit */,
 			);
 			productName = "AI Copilot for Xcode";
 			productReference = 2FA8A51529F1CE2F00F5C0E7 /* Pineapple for Xcode.app */;
@@ -512,6 +517,7 @@
 			name = Pineapple;
 			packageProductDependencies = (
 				2FEA719929F27ADC00E251D9 /* OpenAI */,
+				2FE3825E29FB030700E79D86 /* PythonKit */,
 			);
 			productName = "AI Copilot";
 			productReference = 2FA8A54729F1D03D00F5C0E7 /* Pineapple.appex */;
@@ -554,6 +560,7 @@
 			mainGroup = 2FA8A50C29F1CE2F00F5C0E7;
 			packageReferences = (
 				2FEA719829F27ADC00E251D9 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				2FE3825D29FB030700E79D86 /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = 2FA8A51629F1CE2F00F5C0E7 /* Products */;
 			projectDirPath = "";
@@ -846,7 +853,7 @@
 				CODE_SIGN_ENTITLEMENTS = PineappleXcode/PineappleXcode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"PineappleXcode/Preview Content\"";
 				DEVELOPMENT_TEAM = 4PX2J4RA7R;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -878,7 +885,7 @@
 				CODE_SIGN_ENTITLEMENTS = PineappleXcode/PineappleXcode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"PineappleXcode/Preview Content\"";
 				DEVELOPMENT_TEAM = 4PX2J4RA7R;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -979,7 +986,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pineapple/Pineapple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 4PX2J4RA7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1006,7 +1013,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pineapple/Pineapple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 4PX2J4RA7R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1078,6 +1085,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2FE3825D29FB030700E79D86 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.3.1;
+			};
+		};
 		2FEA719829F27ADC00E251D9 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
@@ -1089,6 +1104,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2FE3825E29FB030700E79D86 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE3825D29FB030700E79D86 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		2FE3826029FB031800E79D86 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FE3825D29FB030700E79D86 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
 		2FEA719929F27ADC00E251D9 /* OpenAI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2FEA719829F27ADC00E251D9 /* XCRemoteSwiftPackageReference "OpenAI" */;

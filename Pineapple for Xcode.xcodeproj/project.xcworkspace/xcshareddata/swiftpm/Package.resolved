@@ -8,6 +8,15 @@
         "revision" : "65748811327527fad88a1a0d141911fd6072b720",
         "version" : "0.1.2"
       }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit",
+      "state" : {
+        "revision" : "81f621d094a7c8923207efe5178f50dba1b56c39",
+        "version" : "0.3.1"
+      }
     }
   ],
   "version" : 2
