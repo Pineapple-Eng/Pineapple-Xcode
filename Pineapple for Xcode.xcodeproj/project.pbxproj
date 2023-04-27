@@ -249,15 +249,15 @@
 			isa = PBXGroup;
 			children = (
 				2FB9933929FB126700643E87 /* PythonCode */,
-				2FB9933329FB0C0500643E87 /* python-stdlib */,
-				2FE3857C29FB043D00E79D86 /* Python.xcframework */,
-				2FEA719529F266EF00E251D9 /* Pineapple-for-Xcode-Info.plist */,
 				2FA8A56729F1E1E300F5C0E7 /* Shared */,
 				2FA8A51729F1CE2F00F5C0E7 /* PineappleXcode */,
 				2FA8A52929F1CE3000F5C0E7 /* PineappleXcodeTests */,
 				2FA8A53329F1CE3000F5C0E7 /* PineappleXcodeUITests */,
 				2FA8A54D29F1D03D00F5C0E7 /* Pineapple */,
 				2FA8A54829F1D03D00F5C0E7 /* Frameworks */,
+				2FEA719529F266EF00E251D9 /* Pineapple-for-Xcode-Info.plist */,
+				2FE3857C29FB043D00E79D86 /* Python.xcframework */,
+				2FB9933329FB0C0500643E87 /* python-stdlib */,
 				2FA8A51629F1CE2F00F5C0E7 /* Products */,
 			);
 			sourceTree = "<group>";
