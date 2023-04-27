@@ -4,6 +4,10 @@ import SwiftUI
 
 @main
 struct PineappleXcodeApp: App {
+    init() {
+        initPython()
+    }
+
     var body: some Scene {
         MenuBarExtra("pineapple_for_xcode", image: "PineappleSymbol") {
             VStack {
@@ -13,6 +17,9 @@ struct PineappleXcodeApp: App {
                 FooterView()
             }
             .background(.ultraThickMaterial)
+            .onAppear {
+                helloPython()
+            }
         }
         .menuBarExtraStyle(.window)
     }

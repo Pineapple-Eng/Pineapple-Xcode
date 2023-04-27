@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F140E5C29F25A0D0027E4E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
-		2F140E5D29F25A0D0027E4E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
-		2F140E5E29F25A0D0027E4E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
-		2F140E5F29F25A0D0027E4E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
-		2F513C1C29F25DF500289133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8A51C29F1CE3000F5C0E7 /* Assets.xcassets */; };
 		2FA8A51929F1CE2F00F5C0E7 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A51829F1CE2F00F5C0E7 /* App.swift */; };
 		2FA8A51B29F1CE2F00F5C0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A51A29F1CE2F00F5C0E7 /* ContentView.swift */; };
-		2FA8A51D29F1CE3000F5C0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8A51C29F1CE3000F5C0E7 /* Assets.xcassets */; };
-		2FA8A52029F1CE3000F5C0E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8A51F29F1CE3000F5C0E7 /* Preview Assets.xcassets */; };
 		2FA8A52B29F1CE3000F5C0E7 /* PineappleXcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A52A29F1CE3000F5C0E7 /* PineappleXcodeTests.swift */; };
 		2FA8A53529F1CE3000F5C0E7 /* PineappleXcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A53429F1CE3000F5C0E7 /* PineappleXcodeUITests.swift */; };
 		2FA8A53729F1CE3000F5C0E7 /* PineappleXcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A53629F1CE3000F5C0E7 /* PineappleXcodeUITestsLaunchTests.swift */; };
@@ -80,8 +73,19 @@
 		2FA8A5C429F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
 		2FA8A5C529F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
 		2FA8A5C629F216F500F5C0E7 /* OpenAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */; };
+		2FB9901529FB08CD00643E87 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
+		2FB9901829FB0ACB00643E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8A51C29F1CE3000F5C0E7 /* Assets.xcassets */; };
+		2FB9933429FB0C0600643E87 /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB9933329FB0C0500643E87 /* python-stdlib */; };
+		2FB9933629FB0C7900643E87 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9933529FB0C7900643E87 /* PythonManager.swift */; };
+		2FB9933729FB0C9800643E87 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9933529FB0C7900643E87 /* PythonManager.swift */; };
+		2FB9933829FB0CC900643E87 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F140E5B29F25A0D0027E4E3 /* Localizable.strings */; };
+		2FB9933B29FB128E00643E87 /* HelloWorld.py in Resources */ = {isa = PBXBuildFile; fileRef = 2FB9933A29FB128E00643E87 /* HelloWorld.py */; };
 		2FE3825F29FB030700E79D86 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE3825E29FB030700E79D86 /* PythonKit */; };
 		2FE3826129FB031800E79D86 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FE3826029FB031800E79D86 /* PythonKit */; };
+		2FE3912529FB044100E79D86 /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3857C29FB043D00E79D86 /* Python.xcframework */; };
+		2FE3912A29FB048200E79D86 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3912929FB048200E79D86 /* SystemConfiguration.framework */; };
+		2FE3912B29FB048A00E79D86 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3912929FB048200E79D86 /* SystemConfiguration.framework */; };
+		2FE3913229FB079D00E79D86 /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3857C29FB043D00E79D86 /* Python.xcframework */; };
 		2FEA719729F26BD700E251D9 /* FileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA719629F26BD700E251D9 /* FileExtension.swift */; };
 		2FEA719A29F27ADC00E251D9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEA719929F27ADC00E251D9 /* OpenAI */; };
 		2FEA719C29F27CEA00E251D9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEA719B29F27CEA00E251D9 /* OpenAI */; };
@@ -179,6 +183,11 @@
 		2FA8A5BB29F20E9800F5C0E7 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		2FA8A5BF29F20F8D00F5C0E7 /* OpenAIKeyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIKeyViewModel.swift; sourceTree = "<group>"; };
 		2FA8A5C329F216F500F5C0E7 /* OpenAPIEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPIEnums.swift; sourceTree = "<group>"; };
+		2FB9933329FB0C0500643E87 /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
+		2FB9933529FB0C7900643E87 /* PythonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
+		2FB9933A29FB128E00643E87 /* HelloWorld.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = HelloWorld.py; sourceTree = "<group>"; };
+		2FE3857C29FB043D00E79D86 /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
+		2FE3912929FB048200E79D86 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2FEA719529F266EF00E251D9 /* Pineapple-for-Xcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pineapple-for-Xcode-Info.plist"; sourceTree = "<group>"; };
 		2FEA719629F26BD700E251D9 /* FileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExtension.swift; sourceTree = "<group>"; };
 		2FEA719D29F2832A00E251D9 /* OpenAISourceExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAISourceExtractor.swift; sourceTree = "<group>"; };
@@ -192,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEA719C29F27CEA00E251D9 /* OpenAI in Frameworks */,
+				2FE3912529FB044100E79D86 /* Python.xcframework in Frameworks */,
+				2FE3912B29FB048A00E79D86 /* SystemConfiguration.framework in Frameworks */,
 				2FE3826129FB031800E79D86 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA8A54A29F1D03D00F5C0E7 /* Cocoa.framework in Frameworks */,
+				2FE3913229FB079D00E79D86 /* Python.xcframework in Frameworks */,
 				2FEA719A29F27ADC00E251D9 /* OpenAI in Frameworks */,
 				2FA8A55E29F1D17F00F5C0E7 /* XcodeKit.framework in Frameworks */,
+				2FE3912A29FB048200E79D86 /* SystemConfiguration.framework in Frameworks */,
 				2FE3825F29FB030700E79D86 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +248,9 @@
 		2FA8A50C29F1CE2F00F5C0E7 = {
 			isa = PBXGroup;
 			children = (
+				2FB9933929FB126700643E87 /* PythonCode */,
+				2FB9933329FB0C0500643E87 /* python-stdlib */,
+				2FE3857C29FB043D00E79D86 /* Python.xcframework */,
 				2FEA719529F266EF00E251D9 /* Pineapple-for-Xcode-Info.plist */,
 				2FA8A56729F1E1E300F5C0E7 /* Shared */,
 				2FA8A51729F1CE2F00F5C0E7 /* PineappleXcode */,
@@ -298,6 +314,7 @@
 		2FA8A54829F1D03D00F5C0E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FE3912929FB048200E79D86 /* SystemConfiguration.framework */,
 				2FA8A54929F1D03D00F5C0E7 /* Cocoa.framework */,
 				2FA8A54B29F1D03D00F5C0E7 /* XcodeKit.framework */,
 			);
@@ -332,6 +349,7 @@
 			children = (
 				2FA8A58029F1F03C00F5C0E7 /* OpenAIManager.swift */,
 				2FA8A56929F1E20200F5C0E7 /* KeychainManager.swift */,
+				2FB9933529FB0C7900643E87 /* PythonManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -439,6 +457,14 @@
 			path = Help;
 			sourceTree = "<group>";
 		};
+		2FB9933929FB126700643E87 /* PythonCode */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9933A29FB128E00643E87 /* HelloWorld.py */,
+			);
+			path = PythonCode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -448,7 +474,8 @@
 			buildPhases = (
 				2FA8A51129F1CE2F00F5C0E7 /* Sources */,
 				2FA8A51229F1CE2F00F5C0E7 /* Frameworks */,
-				2FA8A51329F1CE2F00F5C0E7 /* Resources */,
+				2FB9901729FB0AC100643E87 /* Resources */,
+				2FE3913129FB074300E79D86 /* ShellScript */,
 				2FA8A55A29F1D03D00F5C0E7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
@@ -471,7 +498,7 @@
 			buildPhases = (
 				2FA8A52229F1CE3000F5C0E7 /* Sources */,
 				2FA8A52329F1CE3000F5C0E7 /* Frameworks */,
-				2FA8A52429F1CE3000F5C0E7 /* Resources */,
+				2FE3913029FB06ED00E79D86 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -489,7 +516,7 @@
 			buildPhases = (
 				2FA8A52C29F1CE3000F5C0E7 /* Sources */,
 				2FA8A52D29F1CE3000F5C0E7 /* Frameworks */,
-				2FA8A52E29F1CE3000F5C0E7 /* Resources */,
+				2FE3912F29FB06E700E79D86 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -507,7 +534,7 @@
 			buildPhases = (
 				2FA8A54329F1D03D00F5C0E7 /* Sources */,
 				2FA8A54429F1D03D00F5C0E7 /* Frameworks */,
-				2FA8A54529F1D03D00F5C0E7 /* Resources */,
+				2FE3912E29FB06D800E79D86 /* Resources */,
 				2FA8A56029F1D17F00F5C0E7 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -575,42 +602,60 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FA8A51329F1CE2F00F5C0E7 /* Resources */ = {
+		2FB9901729FB0AC100643E87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA8A52029F1CE3000F5C0E7 /* Preview Assets.xcassets in Resources */,
-				2F140E5C29F25A0D0027E4E3 /* Localizable.strings in Resources */,
-				2FA8A51D29F1CE3000F5C0E7 /* Assets.xcassets in Resources */,
+				2FB9933B29FB128E00643E87 /* HelloWorld.py in Resources */,
+				2FB9933829FB0CC900643E87 /* Localizable.strings in Resources */,
+				2FB9933429FB0C0600643E87 /* python-stdlib in Resources */,
+				2FB9901829FB0ACB00643E87 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FA8A52429F1CE3000F5C0E7 /* Resources */ = {
+		2FE3912E29FB06D800E79D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F140E5D29F25A0D0027E4E3 /* Localizable.strings in Resources */,
+				2FB9901529FB08CD00643E87 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FA8A52E29F1CE3000F5C0E7 /* Resources */ = {
+		2FE3912F29FB06E700E79D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F513C1C29F25DF500289133 /* Assets.xcassets in Resources */,
-				2F140E5E29F25A0D0027E4E3 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FA8A54529F1D03D00F5C0E7 /* Resources */ = {
+		2FE3913029FB06ED00E79D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F140E5F29F25A0D0027E4E3 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE3913129FB074300E79D86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nset -e\necho \"Signing as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY) ($CODESIGNING_FOLDER_PATH)\"\nfind \"$CODESIGNING_FOLDER_PATH/Contents/Resources/python-stdlib/lib-dynload\" -name \"*.so\" -exec /usr/bin/codesign — force — sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime — timestamp=none — preserve-metadata=identifier,entitlements,flags — generate-entitlement-der {} \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FA8A51129F1CE2F00F5C0E7 /* Sources */ = {
@@ -624,6 +669,7 @@
 				2FEA719F29F2836500E251D9 /* OpenAISourceExtractor.swift in Sources */,
 				2FA8A59929F1F48400F5C0E7 /* TopBarView.swift in Sources */,
 				2FA8A58729F1F04900F5C0E7 /* OpenAIManager.swift in Sources */,
+				2FB9933629FB0C7900643E87 /* PythonManager.swift in Sources */,
 				2FA8A51B29F1CE2F00F5C0E7 /* ContentView.swift in Sources */,
 				2FA8A58B29F1F14C00F5C0E7 /* MainAppInteraction.swift in Sources */,
 				2FA8A57629F1EDC200F5C0E7 /* Indentation.swift in Sources */,
@@ -701,6 +747,7 @@
 				2FA8A58E29F1F14C00F5C0E7 /* MainAppInteraction.swift in Sources */,
 				2FA8A56D29F1E20200F5C0E7 /* KeychainManager.swift in Sources */,
 				2FA8A5A729F2020B00F5C0E7 /* ButtonStyles.swift in Sources */,
+				2FB9933729FB0C9800643E87 /* PythonManager.swift in Sources */,
 				2FA8A58429F1F03C00F5C0E7 /* OpenAIManager.swift in Sources */,
 				2FA8A57F29F1EEEC00F5C0E7 /* KeychainEnums.swift in Sources */,
 				2FA8A55129F1D03D00F5C0E7 /* GenerateFromComment.swift in Sources */,
